@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body id="home" class="bg-zinc-950 text-gray-300 font-sans pb-20 md:pb-0">
+    
+<nav>
+
+  <!-- ================= DESKTOP NAVBAR ================= -->
+  <div
+    class="hidden md:block fixed top-5 left-1/2 -translate-x-1/2
+           border border-slate-900 rounded-4xl z-50 max-w-7xl backdrop-blur-sm"
+  >
+    <div
+      class="flex items-center gap-10 rounded-4xl p-1 px-20"
+    >
+
+      <a
+        href="#home"
+        class="px-4 py-2 rounded-4xl text-slate-300
+               hover:bg-violet-400/10 hover:text-violet-400
+               transition duration-500"
+      >
+        Home
+      </a>
+
+      <a
+        href="#projects"
+        class="px-4 py-2 rounded-2xl text-slate-300
+               hover:bg-violet-400/10 hover:text-violet-300
+               transition duration-300"
+      >
+        Projects
+      </a>
+
+      <a
+        href="#contact"
+        class="px-4 py-2 rounded-4xl text-slate-300
+               hover:bg-violet-400/10 hover:text-violet-300
+               transition duration-300"
+      >
+        Contact
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- ================= MOBILE NAVBAR ================= -->
+  <div
+    class="md:hidden fixed bottom-0 left-0 right-0
+           z-50 bg-slate-9 backdrop-blur-lg
+           border-t border-slate-800"
+  >
+
+    <div class="flex items-center justify-around">
+
+      <!-- Home -->
+      <a
+        href="#home"
+        class="flex flex-col items-center justify-center
+               gap-1 py-3 w-full
+               text-slate-300
+               hover:text-violet-400
+               transition duration-300"
+      >
+        <ion-icon
+          name="home-outline"
+          class="text-xl"
+        ></ion-icon>
+
+        <span class="text-xs">
+          Home
+        </span>
+      </a>
+
+
+      <!-- Projects -->
+      <a
+        href="#projects"
+        class="flex flex-col items-center justify-center
+               gap-1 py-3 w-full
+               text-slate-300
+               hover:text-violet-400
+               transition duration-300"
+      >
+        <ion-icon
+          name="folder-outline"
+          class="text-xl"
+        ></ion-icon>
+
+        <span class="text-xs">
+          Projects
+        </span>
+      </a>
+
+
+      <!-- Contact -->
+      <a
+        href="#contact"
+        class="flex flex-col items-center justify-center
+               gap-1 py-3 w-full
+               text-slate-300
+               hover:text-violet-400
+               transition duration-300"
+      >
+        <ion-icon 
+          name="person-outline"
+          class="text-xl"
+          ></ion-icon>
+
+        <span class="text-xs">
+          Contact
+        </span>
+      </a>
+
+    </div>
+
+  </div>
+
+</nav>
+
+
+
+
+    <section class="min-h-screen pt-30 px-30">
+      <div>
+        <div>
+          <p class="text-violet-300 text-lg">Hi, I'm Bashir</p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-25">
+          <p
+            class="text-5xl sm:text-6xl lg:text-7xl font-semibold leading-tight mt-4"
+          >
+            Software <br />
+            Developer
+          </p>
+
+          <p class="text-3xl font-thin leading-tight pt-5">
+            Transforming ideas into interactive and seamless digital experiences
+            with cutting-edge
+            <span class="text-violet-500">frontend</span> development.
+          </p>
+        </div>
+      </div>
+
+      <div class="pt-5 flex gap-5">
+        <a
+          href="https://github.com/"
+          class="border border-1 border-slate-600 rounded-lg"
+        >
+          <ion-icon
+            name="logo-github"
+            class="h-8 w-8 p-2 transition duration-300 hover:drop-shadow-[0_0_12px_#ffffff]"
+          ></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/"
+          class="p-2 border border-1 border-slate-600 rounded-lg"
+        >
+          <ion-icon
+            name="logo-linkedin"
+            class="h-8 w-8 transition duration-300 hover:drop-shadow-[0_0_12px_#ffffff]"
+          ></ion-icon>
+        </a>
+        <a
+          href="https://mail.google.com/"
+          class="p-2 border border-1 border-slate-600 rounded-lg"
+        >
+          <ion-icon
+            name="mail-outline"
+            class="h-8 w-8 transition duration-300 hover:drop-shadow-[0_0_12px_#ffffff]"
+          ></ion-icon>
+        </a>
+      </div>
+
+      <div class="max-w-6xl mx-auto px-6 py-10 hidden md:flex">
+        <div class="flex flex-wrap justify-center items-center gap-x-12 pt-5">
+          <div class="flex items-center gap-3 text-gray-400">
+            <img
+              src="https://cdn.simpleicons.org/html5/E34F26"
+              alt="HTML5"
+              class="w-7 h-7 hover:-translate-y-0.5 transition duration-300"
+            />
+
+            <span class="text-lg font-medium"> HTML5 </span>
+          </div>
+
+          <div class="flex items-center gap-3 text-gray-400">
+            <img
+              src="https://cdn.simpleicons.org/css/1572B6"
+              alt="CSS"
+              class="w-7 h-7 hover:-translate-y-0.5 transition duration-300"
+            />
+
+            <span class="text-lg font-medium"> CSS </span>
+          </div>
+
+          <div class="flex items-center gap-3 text-gray-400">
+            <img
+              src="https://cdn.simpleicons.org/javascript/F7DF1E"
+              alt="JavaScript"
+              class="w-7 h-7 hover:-translate-y-0.5 transition duration-300"
+            />
+
+            <span class="text-lg font-medium"> JavaScript </span>
+          </div>
+
+          <div class="flex items-center gap-3 text-gray-400">
+            <img
+              src="https://cdn.simpleicons.org/tailwindcss/06B6D4"
+              alt="Tailwind CSS"
+              class="w-7 h-7 hover:-translate-y-0.5 transition duration-300"
+            />
+
+            <span class="text-lg font-medium"> Tailwind CSS </span>
+          </div>
+
+          <div class="flex items-center gap-3 text-gray-400">
+            <img
+              src="https://cdn.simpleicons.org/bootstrap/7952B3"
+              alt="Bootstrap"
+              class="w-7 h-7 hover:-translate-y-0.5 transition duration-300"
+            />
+
+            <span class="text-lg font-medium"> Bootstrap </span>
+          </div>
+
+          <div class="flex items-center gap-3 text-gray-400">
+            <img
+              src="https://cdn.simpleicons.org/git/F05032"
+              alt="Git"
+              class="w-7 h-7 hover:-translate-y-0.5 transition duration-300"
+            />
+
+            <span class="text-lg font-medium"> Git </span>
+          </div>
+
+          <div class="flex items-center gap-3 text-gray-400">
+            <img
+              src="https://cdn.simpleicons.org/github/FFFFFF"
+              alt="GitHub"
+              class="w-7 h-7 hover:-translate-y-0.5 transition duration-300"
+            />
+
+            <span class="text-lg font-medium"> GitHub </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl flex flex-col md:flex-row px-30 gap-20 md:gap-60">
+      <div>
+        <p class="text-4xl font-semibold tracking-wider py-5">What I do?</p>
+
+        <div class="grid grid-cols-1 gap-5">
+          <details
+            class="py-2 px-5 group backdrop-blur-sm border border-1 border-gray-800 rounded-3xl"
+          >
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none"
+            >
+              <h3 class="text-lg md:text-xl text-white">Web Development</h3>
+
+              <span
+                class="text-2xl text-gray-400 transition-transform duration-300 group-open:rotate-180 pl-10"
+              >
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </span>
+            </summary>
+
+            <!-- Dropdown content -->
+            <ul class="mt-6 space-y-3 text-gray-400 list-disc list-inside">
+              <li>Single Page Applications (SPAs)</li>
+              <li>Landing pages and business websites</li>
+              <li>Portfolio websites</li>
+            </ul>
+          </details>
+
+          <details
+            class="py-2 px-5 group backdrop-blur-sm border border-1 border-gray-800 rounded-3xl"
+          >
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none"
+            >
+              <h3 class="text-lg md:text-xl text-white">Mobile Development</h3>
+
+              <span
+                class="text-2xl text-gray-400 transition-transform duration-300 group-open:rotate-180 pl-10"
+              >
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </span>
+            </summary>
+
+            <!-- Dropdown content -->
+            <ul class="mt-6 space-y-3 text-gray-400 list-disc list-inside">
+              <li>Mobile-friendly web apps</li>
+              <li>React Native mobile apps</li>
+            </ul>
+          </details>
+
+          <details
+            class="py-2 px-5 group backdrop-blur-sm border border-1 border-gray-800 rounded-3xl"
+          >
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none"
+            >
+              <h3 class="text-lg md:text-xl text-white">
+                UI/UX Design & Prototyping
+              </h3>
+
+              <span
+                class="text-2xl text-gray-400 transition-transform duration-300 group-open:rotate-180 pl-10"
+              >
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </span>
+            </summary>
+
+            <!-- Dropdown content -->
+            <ul class="mt-6 space-y-3 text-gray-400 list-disc list-inside">
+              <li>UI design with Figma & Canva</li>
+              <li>UX research & improvements</li>
+              <li>Prototyping for websites & mobile apps</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+
+      <div>
+        <img class=" h-80" src="Image (2).png" alt="" />
+      </div>
+    </section>
+
+    <section class="px-10 md:px-0 max-w-6xl mx-auto mt-24 border-t-1 border-gray-800 py-10">
+      <div>
+        <p class="text-lg text-violet-300 pt-15">My work</p>
+
+        <p class="text-6xl pt-5 tracking-wide font-semibold">Projects</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-10">
+
+        <!-- SAVORA -->
+        <div class="group">
+          <a
+            href="https://savora-website-dun.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block">
+
+              <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
+                <img
+                  src="Screenshot_20260912_232855_Chrome.jpg"
+                  alt="Savora restaurant website"
+                  class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"/>
+              </div>
+          </a>
+
+          <div class="flex items-center px-3">
+            <a
+              href="https://savora-website-dun.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block">
+
+              <div class="flex-grow">
+                <h4 class="text-2xl font-semibold">Savora</h4>
+                <span class="py-1 text-sm text-[var(--white-icon)]">
+                  Deployed
+                </span>
+              </div>
+            </a>
+
+            <div class="flex gap-2 ml-auto">
+
+              <!-- GitHub -->
+              <a
+                href="#!"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-7">
+
+                    <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+                  </svg>
+              </a>
+
+              <!-- Live Preview -->
+              <a
+                target="_blank"
+                href="https://savora-website-dun.vercel.app"
+                aria-label="Preview"
+                class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-7">
+                      <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                  </svg>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+
+  <!-- PROJECT TWO -->
+  <div class="group">
+    <a href="#!" target="_blank" rel="noopener noreferrer" class="block">
+      <div
+        class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4"
+      >
+        <img
+          src="https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Two"
+          alt="Project Two"
+          class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+    </a>
+
+    <div class="flex items-center px-3">
+      <a href="#!" target="_blank" rel="noopener noreferrer" class="block">
+        <div class="flex-grow">
+          <h4 class="text-2xl font-semibold">Project Two</h4>
+          <span class="py-1 text-sm text-[var(--white-icon)]">
+            On Development
+          </span>
+        </div>
+      </a>
+
+      <div class="flex gap-2 ml-auto">
+
+        <a
+          href="#!"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+
+          <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-7">
+
+                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+          </svg>
+        </a>
+
+        <!-- Live Preview -->
+        <a
+          target="_blank"
+          href="#"
+          aria-label="Preview"
+          class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+             <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-7">
+                  <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+               </svg>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- PROJECT THREE -->
+  <div class="group">
+    <a href="#!" target="_blank" rel="noopener noreferrer" class="block">
+      <div
+        class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4"
+      >
+        <img
+          src="https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Three"
+          alt="Project Three"
+          class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+    </a>
+
+    <div class="flex items-center px-3">
+      <a href="#!" target="_blank" rel="noopener noreferrer" class="block">
+        <div class="flex-grow">
+          <h4 class="text-2xl font-semibold">Project Three</h4>
+          <span class="py-1 text-sm text-[var(--white-icon)]">
+            Contributor
+          </span>
+        </div>
+      </a>
+
+      <div class="flex gap-2 ml-auto">
+  
+        <a
+          href="#!"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 24 24"
+               fill="currentColor"
+               class="size-7">
+
+                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+            </svg>
+       </a>
+
+       <!-- Live Preview -->
+       <a
+         target="_blank"
+         href="#"
+         aria-label="Preview"
+         class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+          <svg
+             xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 24 24"
+             fill="currentColor"
+             class="size-7">
+                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+          </svg>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- PROJECT FOUR -->
+  <div class="group">
+    <a href="#!" target="_blank" rel="noopener noreferrer" class="block">
+      <div
+        class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4"
+      >
+        <img
+          src="https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Four"
+          alt="Project Four"
+          class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+    </a>
+
+    <div class="flex items-center px-3">
+      <a href="#!" target="_blank" rel="noopener noreferrer" class="block">
+        <div class="flex-grow">
+          <h4 class="text-2xl font-semibold">Project Four</h4>
+          <span class="py-1 text-sm text-[var(--white-icon)]">
+            Deployed
+          </span>
+        </div>
+      </a>
+
+      <div class="flex gap-2 ml-auto">
+        
+         <a
+          href="#!"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 24 24"
+               fill="currentColor"
+               class="size-7">
+
+                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+            </svg>
+       </a>
+
+       <!-- Live Preview -->
+       <a
+         target="_blank"
+         href="#"
+         aria-label="Preview"
+         class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+          <svg
+             xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 24 24"
+             fill="currentColor"
+             class="size-7">
+                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+          </svg>
+        </a>
+         
+      </div>
+    </div>
+  </div>
+
+</div>  
+
+<div class="place-self-center border-1 border-gray-900 w-full text-center py-3 mt-10 rounded-4xl text-xl backdrop-blur-lg hover:bg-mist-900 hover:scale-105 transition-transform duration-300">
+  <a href="https://github.com/">
+    More projects on 
+    <ion-icon name="logo-github" class="text-xl transition duration-300 hover:drop-shadow-[0_0_12px_#ffffff]"></ion-icon>
+  </a>
+
+</div>
+    
+</section>
+
+
+<section id="contact" class="border-t border-gray-800 py-24 mx=0 md:mx-26">
+
+    <div class="mx-w-6xl mx-auto px-6">
+
+        <div class="max-w-3xl">
+
+            <p class="text-violet-500 text-lg tracking-wide">
+                Let's Talk
+            </p>
+
+            <p class="text-4xl md:text-5xl text-2xl mt-3">
+                Contact
+            </p>
+            
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 mt-12">
+
+            <div>
+
+                <p class="text-lg text-gray-500 tracking-wide ">
+                    Have a question or a project in mind? Feel free to reach out.
+                </p>
+
+                <div class="mt-8 space-y-5">
+
+                    <div>
+                        <p class="text-gray-500 text-lg font-normal tracking-wide">
+                            LOCATION: NIGERIA
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <form class="max-w-xl w-full md:ml-auto">
+                <div>
+                  
+                    <input type="text" placeholder="Name" class="w-full mt-2 bg-zinc-950 border border-zinc-900 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-violet-400 transition duration-300 focus:border-2">
+                </div>
+
+                <div class="mt-1">
+          
+                    <input type="email" placeholder="Email" class="w-full mt-2 bg-zinc-950 border border-zinc-900 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-violet-400 transition duration-300 focus:border-2">
+                </div>
+
+
+                <div class="mt-1">
+                    <textarea rows="6" placeholder="Message" class="w-full mt-2 bg-zinc-950 border border-zinc-900 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-violet-400 transition duration-300 focus:border-2"></textarea>
+                </div>
+                <a href="#">
+                  <button type="submit" class="w-full  mt-3 bg-zinc-900 text-gray-400 px-6 py-3 rounded-lg font-semibold hover:bg-zinc-900 duration-300">
+                      Submit
+                  </button>  
+                </a>
+
+            </form>
+
+        </div>
+
+    </div>
+
+ </section>
+
+
+ <footer>
+  <div>
+
+  </div>
+
+  <div>
+
+  </div>
+ </footer>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+ </body>
+</html>
